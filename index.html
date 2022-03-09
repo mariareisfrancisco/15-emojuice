@@ -2,15 +2,21 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&family=Quattrocento:wght@400;700&family=Sriracha&display=swap" rel="stylesheet">
     <title>emojuice</title>
   </head>
   <body>
     <header>
-      <h1></h1>
-      <p>Boissons végétales préparées avec amour</p>
-      <a>Accédez à nos produits</a>
-      <a>Nous contacter</a>
+      <div>
+        <h1 class="brand">emojuice</h1>
+        <p>Boissons végétales préparées avec amour</p>
+      </div>
+      <a class="button">Accédez à nos produits</a>
+      <a class="button button-light">Nous contacter</a>
     </header>
     <main>
       <div>
@@ -18,24 +24,24 @@
         <p>Chez emojuice, nous tentons de vous fournir des produits sains et 
           respectueux de la planète.</p>
       </div>
-      <div>
+      <div class="products">
         <h3>Nos produits</h3>
-        <div>
+        <div class="recipe recipe-banana">
           <h2>Jus banane</h2>
           <p>Notre plus grand classique.</p>
           <a>En savoir plus</a>
         </div>
-        <div>
+        <div class="recipe recipe-kiwi">
           <h2>Sirop kiwi</h2>
           <p>En vert et contre tous.</p>
           <a>En savoir plus</a>
         </div>
-        <div>
+        <div class="recipe recipe-coffee">
           <h2>Glace au café</h2>
           <p>«Un espresso pour Georges!»</p>
           <a>En savoir plus</a>
         </div>
-        <div>
+        <div class="recipe recipe-strawberry">
           <h2>Délice à la fraise</h2>
           <p>La voilà qui ramène sa fraise.</p>
           <a>En savoir plus</a>
@@ -44,9 +50,9 @@
     </main>
     <footer>
       <h3>Nous contacter</h3>
-      <a>emojuice@veggies.ch</a>
-      <a>Instagram</a>
-      <a>Facebook</a>
+      <a class="button">emojuice@veggies.ch</a>
+      <a class="button">Instagram</a>
+      <a class="button">Facebook</a>
       <p>Emojuice est une marque déposée par Veggies inc. Switzerland.</p>
     </footer>
   </body>

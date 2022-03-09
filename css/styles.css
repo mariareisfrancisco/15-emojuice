@@ -1,0 +1,51 @@
+/*
+ font-family: 'Maven Pro', sans-serif;
+font-family: 'Quattrocento', serif;
+font-family: 'Sriracha', cursive; 
+*/
+html {
+  scroll-behavior: smooth;
+  text-align: center;
+  font-family: 'Maven Pro', sans-serif; 
+}
+
+body {
+  max-width: 320px;
+  margin: auto;
+}
+
+header {
+  background-image: url(../img/fruits_exotiques.webp);
+}
+
+header div { 
+ background-color: #FFFFFF;
+ color: #57BB6B;
+}
+
+.brand {
+  font-family: 'Sriracha', cursive; 
+}
+
+.button {
+  background-color: #57BB6B;
+  color: white;
+  text-align: center;
+}
+
+.products {
+  background-color: #57BB6B;
+  color: white;
+}
+
+.recipe {
+  color: black;
+}
+
+.recipe-banana {
+  background-color: #FFF8D7;
+}
+
+h2 {
+  font-family: 'Sriracha', cursive; 
+}
