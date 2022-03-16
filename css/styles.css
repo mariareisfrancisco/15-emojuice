@@ -7,28 +7,29 @@ html {
   scroll-behavior: smooth;
   text-align: center;
   font-family: 'Maven Pro', sans-serif; 
+  background-color:#57BB6B;
 }
 
 body {
   max-width: 320px;
   margin: auto;
+  background-color:white;
 }
 
 header {
   background-image: url(../img/fruits_exotiques.webp);
-  background-color:#57BB6B;
   background-size: cover;
-  border-top: line 2px #57BB6B;
   background-repeat: no-repeat;
   height: 380px;
+  font-size: 20px;
 }
 
 .container { 
- margin: 28px 30px 0;
  padding: 20px 38px;
- background: #FFFFFF;
+ background: #ffffffe5;
  color: #57BB6B;
  font-family: 'Quattrocento', serif;
+ margin: 25px
 }
 
 
@@ -44,9 +45,17 @@ header {
   align-content: center;
 }
 
-div {
+.card {
   font-family: 'Quattrocento', serif;
-  margin: 37px;
+  padding: 37px;
+  margin: 30px 0;
+  font-size: 16px;
+}
+.title {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
 }
 
 span {
@@ -54,20 +63,56 @@ span {
   font-weight: 800;
 }
 
+.fruit-line {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
 .products {
   background-color: #57BB6B;
   color: white;
-  margin: none;
 }
+
+h3 {
+ font-size: 26px;
+ font-family: 'Maven Pro', sans-serif;
+ font-weight: 800;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'Sriracha', cursive; 
+  font-weight: 400;
+  text-align: left;
+}
+
 
 .recipe {
   color: black;
+  border-radius: 20px;
+  margin: 20px 30px;
+  padding: 35px 20px 30px;
 }
 
 .recipe-banana {
   background-color: #FFF8D7;
 }
 
-h2 {
-  font-family: 'Maven Pro', sans-serif;
+.recipe-kiwi {
+  background-color: #C4F2AD;
+}
+
+.recipe-coffee {
+  background-color: #D3C6B2;
+}
+
+.recipe-strawberry {
+  background-color: #F7A4B4;
+}
+
+p{
+  padding-bottom: 20px;
 }
