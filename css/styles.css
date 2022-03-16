@@ -16,26 +16,48 @@ body {
 
 header {
   background-image: url(../img/fruits_exotiques.webp);
+  background-color:#57BB6B;
+  background-size: cover;
+  border-top: line 2px #57BB6B;
+  background-repeat: no-repeat;
+  height: 380px;
 }
 
-header div { 
- background-color: #FFFFFF;
+.container { 
+ margin: 28px 30px 0;
+ padding: 20px 38px;
+ background: #FFFFFF;
  color: #57BB6B;
+ font-family: 'Quattrocento', serif;
 }
 
-.brand {
-  font-family: 'Sriracha', cursive; 
-}
 
 .button {
   background-color: #57BB6B;
   color: white;
   text-align: center;
+  padding: 15px 17px;
+  margin: 15px;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+div {
+  font-family: 'Quattrocento', serif;
+  margin: 37px;
+}
+
+span {
+  font-family: 'Quattrocento', serif;
+  font-weight: 800;
 }
 
 .products {
   background-color: #57BB6B;
   color: white;
+  margin: none;
 }
 
 .recipe {
@@ -47,5 +69,5 @@ header div {
 }
 
 h2 {
-  font-family: 'Sriracha', cursive; 
+  font-family: 'Maven Pro', sans-serif;
 }
