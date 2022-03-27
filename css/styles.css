@@ -12,7 +12,6 @@ html {
 
 body {
   max-width: 380px;
-  max-height: 2640px;
   margin: auto;
   background-color: white;
 }
@@ -43,7 +42,7 @@ header {
 .button-container {
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
   margin-bottom: 70px;
 }
 
@@ -175,4 +174,23 @@ a {
 .contacts {
   color:#57BB6B;
   padding: 0;
+}
+
+.kiwi-page {
+  background-color: #C4F2AD;
+  padding: 63px;
+}
+
+article {
+  background-color: #57BB6B;
+  color: white;
+}
+
+.kiwi {
+  background-color: white;
+  border-radius: 50px;
+}
+
+img {
+  box-sizing: border-box;
 }
