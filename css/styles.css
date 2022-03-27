@@ -5,32 +5,43 @@ font-family: 'Sriracha', cursive;
 */
 html {
   scroll-behavior: smooth;
-  text-align: center;
   font-family: 'Maven Pro', sans-serif; 
   background-color:#57BB6B;
-  max-width: 380px;
 }
 
 body {
-  max-width: 320px;
+  max-width: 380px;
   margin: auto;
-  background-color:white;
+  background-color: white;
 }
 
 header {
-  background-image: url(../img/fruits_exotiques.webp);
-  background-size: cover;
+  background-image: url("../img/fruits_exotiques.webp");
+  padding: 30px;
+  margin-top: 8px;
   background-repeat: no-repeat;
-  max-width: 320px;
-  font-size: 20px;
+  background-size: cover;
 }
 
 .container { 
- padding: 20px 38px;
- background: #ffffffe5;
- color: #57BB6B;
- font-family: 'Quattrocento', serif;
- margin: 25px;
+  padding: 35px 55px;
+  background: #ffffffdd;
+  margin: 0 0 35px;
+}
+
+.text {
+  padding:10px 0 0 0;
+  text-align: center;
+  margin: 0;
+  font-family: 'Quattrocento', serif;
+  color: #57BB6B;
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 .button {
@@ -38,19 +49,16 @@ header {
   color: white;
   text-align: center;
   padding: 10px 5px;
-  margin: 25px;
+  margin: 0 39px 10px;
   border-radius: 17px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  text-decoration: none;
-  font-weight: 400;
+  font-weight: 100;
   font-size: 20px;
 }
 
 .button-light {
   color:#57BB6B;
   background-color: white;
+  margin: 0 78px 10px;
 }
 
 .button-light:hover {
@@ -60,14 +68,15 @@ header {
 
 .card {
   font-family: 'Quattrocento', serif;
-  padding: 10px 0;
+  padding: 20px 39px;
   margin: 30px;
   font-size: 16px;
+  text-align: center;
 }
 .title {
   font-family: 'Maven Pro', sans-serif;
   font-size: 26px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 span {
@@ -80,7 +89,7 @@ span {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  margin-top: 20px;
+  margin: 40px 0;
 }
 
 .products {
@@ -92,7 +101,7 @@ h3 {
  font-size: 26px;
  font-family: 'Maven Pro', sans-serif;
  font-weight: 600;
- padding-top: 40px;
+ padding-top: 20px;
 }
 
 h2 {
@@ -100,7 +109,6 @@ h2 {
   font-family: 'Sriracha', cursive; 
   font-weight: 400;
   color: black;
-  padding-bottom: 0;
 }
 
 .recipe {
