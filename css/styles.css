@@ -12,6 +12,7 @@ html {
 
 body {
   max-width: 380px;
+  max-height: 2640px;
   margin: auto;
   background-color: white;
 }
@@ -39,21 +40,21 @@ header {
   font-size: 20px;
 }
 
-nav {
+.button-container {
   display: flex;
   flex-direction: column;
   align-content: center;
+  margin-bottom: 70px;
 }
 
 .button {
   background-color: #57BB6B;
   color: white;
   padding: 10px;
-  margin: 0 39px 10px;
+  margin: 0 0 15px;
   border-radius: 15px;
   font-weight: 100;
   font-size: 20px;
-  width: max-content;
 }
 
 .button-light {
@@ -96,6 +97,7 @@ span {
 .products {
   background-color: #57BB6B;
   color: white;
+  height: 1295px;
 }
 
 h3 {
@@ -153,13 +155,13 @@ p {
 }
 
 .footer {
-
+  padding: 0 20px;
+  font-size: 12px;
 }
 
 footer{
   color:#57BB6B;
-  font-size: 12px;
-  margin: 0 30px 30px;
+  margin: 0 30px;
   padding: 0 39px 10px;
 }
 
