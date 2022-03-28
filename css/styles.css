@@ -57,12 +57,14 @@ header {
   border-radius: 15px;
   font-weight: 100;
   font-size: 20px;
+  text-decoration: none;
 }
 
 .button-light {
   color:#57BB6B;
   background-color: white;
   margin: 0 78px 10px;
+  text-decoration: none;
 }
 
 .button-light:hover {
@@ -104,10 +106,18 @@ span {
 }
 
 h3 {
- font-size: 26px;
- font-family: 'Maven Pro', sans-serif;
- font-weight: 600;
- padding-top: 40px;
+  font-size: 26px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 600;
+  padding-top: 40px;
+  margin: 0;
+}
+
+footer h3 {
+  font-size: 26px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 600;
+  padding-top: 40px;
 }
 
 h2 {
@@ -177,7 +187,10 @@ a {
 
 .contacts {
   color:#57BB6B;
-  padding: 0;
+  font-size: 26px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 600;
+  padding: 40px 0 30px;
 }
 
 .kiwi-page {
@@ -229,46 +242,51 @@ article p {
 .more-products {
   background-color: #C4F2AD;
   color: black;
-  padding-bottom: 0 30px 30px 80px;
+  padding: 0 30px 30px;
 }
 
 .container-products {
   display: flex;
-  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
 .small-recipe {
   border-radius: 15px;
   text-align: left;
-  margin: 0 14px;
-  padding:  20px;
+  margin: 0 8px;
   font-size: 16px;
   font-family: 'Quattrocento', serif;
   color: rgba(0, 0, 0, 0.507);
-  max-width: 152px; 
+  width: 152px; 
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.109);
 }
 
 .smaller-text{
   font-size: 20px;
+  line-height: 1.2;
+  padding: 20px 12px 0;
 }
 
 .more {
   font-size: 38px;
+  margin: 0;
 }
 
 .footer-product {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 15px;
 }
 
 .button-container-footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
 }
 
 .big {
@@ -281,4 +299,24 @@ article p {
 
 .small {
   width: 27px;
+}
+
+.button-products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0 0;
+}
+
+.coffee {
+  margin-bottom: 24px;
+}
+
+.products-title {
+  padding-bottom: 30px;
+}
+
+.shorter {
+  margin: 0px;
 }
