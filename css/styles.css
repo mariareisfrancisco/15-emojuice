@@ -16,6 +16,10 @@ body {
   background-color: white;
 }
 
+main {
+  background-color: #57BB6B;
+}
+
 header {
   background-image: url("../img/fruits_exotiques.webp");
   padding: 30px;
@@ -31,7 +35,7 @@ header {
 }
 
 .text {
-  padding:10px 0 0 0;
+  padding: 10px 0 0 0;
   text-align: center;
   margin: 0;
   font-family: 'Quattrocento', serif;
@@ -43,7 +47,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 70px;
 }
 
 .button {
@@ -69,10 +72,11 @@ header {
 
 .card {
   font-family: 'Quattrocento', serif;
-  padding: 20px 39px;
-  margin: 30px;
+  padding: 50px 69px;
   font-size: 16px;
+  background-color: white;
 }
+
 .title {
   font-family: 'Maven Pro', sans-serif;
   font-size: 26px;
@@ -96,7 +100,7 @@ span {
 .products {
   background-color: #57BB6B;
   color: white;
-  height: 1295px;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -114,7 +118,7 @@ h2 {
   margin: 0;
 }
 
-p {
+div p {
   margin:0 0 47px 0;
 }
 
@@ -179,18 +183,102 @@ a {
 .kiwi-page {
   background-color: #C4F2AD;
   padding: 63px;
+  font-family: 'Quattrocento', serif;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.507);
 }
 
 article {
   background-color: #57BB6B;
   color: white;
+  padding: 0 69px;
+  text-align: left;
+  padding-bottom: 10px;
+  font-family: 'Quattrocento', serif;
+}
+
+article p {
+  text-align: left;
+  font-family: 'Quattrocento', serif;
+  font-size: 16px;
+  padding: 29px 0 35px;
+  margin: 0;
+}
+
+.subtitle {
+  font-family: 'Quattrocento', serif;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 35px 0 0 0;
+  margin: 0;
 }
 
 .kiwi {
   background-color: white;
-  border-radius: 50px;
+  border-radius: 70px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.267);
+  width: 80px;
 }
 
-img {
+.kiwis {
   box-sizing: border-box;
+  max-width: 240px;
+}
+
+.more-products {
+  background-color: #C4F2AD;
+  color: black;
+  padding-bottom: 0 30px 30px 80px;
+}
+
+.container-products {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.small-recipe {
+  border-radius: 15px;
+  text-align: left;
+  margin: 0 14px;
+  padding:  20px;
+  font-size: 16px;
+  font-family: 'Quattrocento', serif;
+  color: rgba(0, 0, 0, 0.507);
+  max-width: 152px; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.109);
+}
+
+.smaller-text{
+  font-size: 20px;
+}
+
+.more {
+  font-size: 38px;
+}
+
+.footer-product {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.button-container-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.big {
+  width: 80px;
+}
+
+.medium {
+  width: 55px;
+}
+
+.small {
+  width: 27px;
 }
