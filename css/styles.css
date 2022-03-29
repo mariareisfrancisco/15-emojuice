@@ -52,7 +52,7 @@ header {
 .button {
   background-color: #57BB6B;
   color: white;
-  padding: 10px;
+  padding: 10px 15px;
   margin: 0 0 15px;
   border-radius: 15px;
   font-weight: 100;
@@ -64,6 +64,7 @@ header {
   color:#57BB6B;
   background-color: white;
   margin: 0 78px 10px;
+  padding: 10px;
   text-decoration: none;
 }
 
@@ -172,7 +173,7 @@ div p {
   font-size: 12px;
 }
 
-footer{
+footer {
   color:#57BB6B;
   margin: 0 30px;
   padding: 0 39px 10px;
@@ -204,9 +205,8 @@ a {
 article {
   background-color: #57BB6B;
   color: white;
-  padding: 0 69px;
+  padding: 0 69px 30px;
   text-align: left;
-  padding-bottom: 10px;
   font-family: 'Quattrocento', serif;
 }
 
@@ -263,7 +263,7 @@ article p {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.109);
 }
 
-.smaller-text{
+.smaller-text {
   font-size: 20px;
   line-height: 1.2;
   padding: 20px 12px 0;
@@ -306,7 +306,7 @@ article p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 30px 0 0;
+  margin: 40px 0 0;
 }
 
 .coffee {
